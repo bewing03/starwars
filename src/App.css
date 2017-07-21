@@ -1,0 +1,68 @@
+@font-face {
+    font-family: starwars;
+    src: url("Starjedi.ttf");
+}
+
+body {
+  background-image: url("http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/10/tfa_poster_wide_header-1536x864-959818851016.jpg");
+  color: yellow; 
+  font-family: starwars; 
+}
+
+.header {
+  font-size: 72px;
+  width: 100%;
+  text-align: center;
+}
+.list {
+  float: left;
+  margin: auto;
+  border: black 1px solid;
+  border: solid 1px white;
+  width: 20%;
+}
+
+.infowindow {
+  float: left;
+  border: solid 1px white;
+  width: 70%;
+}
+
+.list, .infowindow h1 {
+  text-align: center;
+}
+
+.list li {
+  margin: auto;
+}
+
+.list ul {
+  list-style-type: none;
+  border: solid 1px white;
+}
+
+button {
+  padding: 5px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  outline: none;
+  color: yellow;
+  font-family: starwars;
+  font-size: 20px;
+  display: block;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.infowindow ul {
+  list-style-type: none;
+}
+
+.infowindow li {
+  padding: 5px;
+  text-align: center;
+}
